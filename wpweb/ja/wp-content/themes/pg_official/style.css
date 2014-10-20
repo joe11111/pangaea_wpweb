@@ -1,27 +1,16 @@
 body{
-/*
-	background-color:#DCD7C3;
-*/
 	background: #DCD7C3 url(images/bkg_top.gif) no-repeat left top scroll;
 	overflow: visible;
 }
 
 #page{
-/*
-	width:956px;
-	background-color:#DCD7C3;
-*/
 	margin-left: 26px;
-	/*margin-left:auto;*/
 	margin-right:auto;
 	overflow:visible;
 }
 #header{
 	background-color:#fff;
 	overflow:hidden;
-	/*
-	height:auto;
-	*/
 	margin:0px;
 	padding:0px;
 }
@@ -45,10 +34,6 @@ body{
 #main-body{
 	width:956px;
 	background-color:#ebe8de;
-/*
-	margin-left: 0px;
-	overflow:hidden;
-*/
 	margin-right:auto;
 	overflow:visible;
 }
@@ -57,11 +42,6 @@ body{
 		background-color:rgba(235,232,222,1);
 		position: relative;
 		float: left;
-		/*
-		width:70px;
-		height:10px;
-		left: 20px; top: 200px;
-		*/
 	}
 #main-content{
 	width:610px;
@@ -69,9 +49,6 @@ body{
 	color:#222;
 	line-height: 180%;
 	font-size:14px;
-	/*
-	background-color:#ebe8de;
-	*/
 	margin:10px,5px;
 	font-family:Verdana, Arial, sans-serif;
 	padding:0px 70px;
@@ -79,16 +56,6 @@ body{
 }
 
 	#main-content .topic{
-	/*
-		margin-width:20px;
-		background-color:#aff;
-		padding:10px;
-		font-weight: bold;
-		font-size:20px;
-		padding:3px 12px;
-		margin:8px 0px;
-		letter-spacing: 4px;
-	*/
 		color:#555;
 		border-left-width:4px;
 		border-left-style:solid;
@@ -123,24 +90,27 @@ body{
 		margin-bottom: 14px;
 		padding-bottom: 5px;
 	}
+
+	#main-content li {
+		line-height: 1.75;
+		list-style: disc inside none;
+		margin-bottom: 14px;
+		margin-left: -40px;
+	}
 	#main-content h2 {
 		border-bottom: 1px solid #ADADAD;
 		font-size: 100%;
 		margin-bottom: 14px;
 		padding-bottom: 5px;
 }
-	#main-content ul {
-		margin-left:-40px;
+	#main-content h3 {
+		font-size: 13px;
 	}
-	#main-content li {
-		line-height: 1.75;
-		list-style: disc inside none;
-		margin-bottom: 14px;
-	}
+
 	#main-content a:link {
 		font-weight: bold;
 	}
-	
+
 a:link {
     color: #2792C3;
     text-decoration: none;
@@ -185,24 +155,6 @@ dl#organizationoverview_2 dd {
 }
 
 
-#generaltable table {
-    background-color: #FFFFFF;
-    border: 1px solid #ECA60F;
-    border-collapse: collapse;
-}
-#generaltable td {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-collapse: collapse;
-    border-color: #ECA60F;
-    border-image: none;
-    border-style: solid none solid solid;
-    border-width: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 #currentcolortable table {
     background-color: #ffffff;
     border: 1px solid;
@@ -212,20 +164,20 @@ dl#organizationoverview_2 dd {
     border-collapse: collapse;
 }
 	#currentcolortable td {
-		 -moz-border-bottom-colors: none;
-		 -moz-border-left-colors: none;
-		 -moz-border-right-colors: none;
-		 -moz-border-top-colors: none;
-		 border-collapse: collapse;
+		-moz-border-bottom-colors: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		border-collapse: collapse;
 		/*
-		 border-color: #ECA60F;
+		border-color: #ECA60F;
 		*/
-		 border-image: none;
-		 border-style: solid none solid solid;
-		 border-width: 1px;
-		 padding-left: 5px;
-		 padding-right: 5px;
-		 font-size: 12px;
+		border-image: none;
+		border-style: solid none solid solid;
+		border-width: 1px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 12px;
 	}
 
 .video_right {

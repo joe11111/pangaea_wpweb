@@ -48,7 +48,7 @@ body{
 	float : right;
 	color:#222;
 	line-height: 180%;
-	font-size:12px;
+	font-size:14px;
 	margin:10px,5px;
 	font-family:Verdana, Arial, sans-serif;
 	padding:0px 70px;
@@ -63,16 +63,16 @@ body{
 		clear:both;
 	}
 		#main-content .main-topic{
-			font-size:22px;
+			font-size:20px;
 			padding:4px 12px;
 			margin:8px 0px;
-			letter-spacing: 0px;
+			letter-spacing: 4px;
 		}
 		#main-content .sub-topic{
-			font-size:17px;
+			font-size:16px;
 			padding:2px 10px;
 			margin:8px 0px;
-			letter-spacing: 0px;
+			letter-spacing: 3px;
 		}
 		
 	#main-content p {
@@ -154,16 +154,6 @@ dl#organizationoverview_2 dd {
     top: 105px;
 }
 
-#participantsurvey_1 {
-    float: left;
-    line-height: 1.75;
-    margin: 0 10px 7px 0;
-}
-
-#participantsurvey_2 {
-    line-height: 1.75;
-    margin: 0 0 7px;
-}
 
 #currentcolortable table {
     background-color: #ffffff;
@@ -174,22 +164,28 @@ dl#organizationoverview_2 dd {
     border-collapse: collapse;
 }
 	#currentcolortable td {
-		-moz-border-bottom-colors: none;
-		-moz-border-left-colors: none;
-		-moz-border-right-colors: none;
-		-moz-border-top-colors: none;
-		border-collapse: collapse;
+		 -moz-border-bottom-colors: none;
+		 -moz-border-left-colors: none;
+		 -moz-border-right-colors: none;
+		 -moz-border-top-colors: none;
+		 border-collapse: collapse;
 		/*
-		border-color: #ECA60F;
+		 border-color: #ECA60F;
 		*/
-		border-image: none;
-		border-style: solid none solid solid;
-		border-width: 1px;
-		padding-left: 5px;
-		padding-right: 5px;
-		font-size: 12px;
+		 border-image: none;
+		 border-style: solid none solid solid;
+		 border-width: 1px;
+		 padding-left: 5px;
+		 padding-right: 5px;
+		 font-size: 12px;
 	}
 
+.video_right {
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
 #main-navi{
 	overflow:hidden;
 	float:left;
@@ -220,34 +216,22 @@ dl#organizationoverview_2 dd {
 		width:138;
 		height:36;
 		position: relative;
-		padding-top:0px;
+		padding-top:10px;
 		text-align:center;
 		 float: inherit;
 		/*
 		*/
 	}
 	#main-navi .menu-item:not(.current-main-navi) a  div{
-		color: #555;
+		color: #333;
 		font-weight: bold;
 		position: relative;
 		overflow:hidden;
 		 float: inherit;
 		 height: 36px;
 		 margin-top: 0;
-		 margin-bottom: 2px;
 		 width: 136px;
-		 font-size: 13px;
 	}
-		#main-navi .menu-item:not(.current-main-navi) a  div div{
-			/*
-			margin:0px;
-			margin-top:auto;
-			*/
-
-			padding:0px;
-			height:auto;
-		}
-	
 #side-navi{
 	color:#aaa;
 	width:200px;
@@ -310,7 +294,7 @@ dl#organizationoverview_2 dd {
 			padding-bottom:10px;
 		}
 	
-		#side-navi #banner #nl_registration_en{
+		#side-navi #banner #nl_registration{
 			padding:0px 0px 0px 11px;
 			/*
 			margin:0px -2px 0px;
@@ -354,8 +338,6 @@ dl#organizationoverview_2 dd {
     float: left;
     margin-right: 40px;
 }
-
-
 #footerbg{
 	clear: left;
 	width:100%;

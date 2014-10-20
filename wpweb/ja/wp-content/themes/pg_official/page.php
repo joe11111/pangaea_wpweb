@@ -19,7 +19,7 @@ get_header(); ?>
 		</div>
 		<div id="title_underimg">
 			<img src="<?php bloginfo('template_directory') ?>/images/title_under_<?php echo $stakeholderP -> getCurenntName(); ?>_ja.jpg" width="200" height="35" alt="title_underimg" />
-		</div>		
+		</div>
 
 		<?php get_sidebar(); ?>
 
