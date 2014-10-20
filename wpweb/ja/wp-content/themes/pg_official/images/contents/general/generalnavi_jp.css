@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+li.generaltoppage { background:url(img/menu/gen_1_off_jp.gif) no-repeat;}
+li.generaltoppage_on { background:url(img/menu/gen_1_on_jp.gif) no-repeat;}
+li.generaltoppage a:hover { background:url(img/menu/gen_1_over_jp.gif) no-repeat;}
+
+
+li.whatispangaea { background: url(img/menu/gen_2_off_jp.gif) no-repeat;}
+li.whatispangaea_on { background: url(img/menu/gen_2_on_jp.gif) no-repeat;}
+li.whatispangaea a:hover { background: url(img/menu/gen_2_over_jp.gif) no-repeat;}
+
+li.sub_whatdowedo { background: url(img/menu/submenu/sub_gen_2_1_off_jp.gif) no-repeat;}
+li.sub_whatdowedo_on { background: url(img/menu/submenu/sub_gen_2_1_on_jp.gif) no-repeat;}
+li.sub_whatdowedo a:hover { background: url(img/menu/submenu/sub_gen_2_1_over_jp.gif) no-repeat;}
+
+li.sub_aboutpangaeaactivity { background: url(img/menu/submenu/sub_gen_2_2_off_jp.gif) no-repeat;}
+li.sub_aboutpangaeaactivity_on { background: url(img/menu/submenu/sub_gen_2_2_on_jp.gif) no-repeat;}
+li.sub_aboutpangaeaactivity a:hover { background: url(img/menu/submenu/sub_gen_2_2_over_jp.gif) no-repeat;}
+
+li.sub_aboutpangaearandd { background: url(img/menu/submenu/sub_gen_2_3_off_jp.gif) no-repeat;}
+li.sub_aboutpangaearandd_on { background: url(img/menu/submenu/sub_gen_2_3_on_jp.gif) no-repeat;}
+li.sub_aboutpangaearandd a:hover { background: url(img/menu/submenu/sub_gen_2_3_over_jp.gif) no-repeat;}
+
+
+li.aboutus { background: url(img/menu/gen_3_off_jp.gif) no-repeat;}
+li.aboutus_on { background: url(img/menu/gen_3_on_jp.gif) no-repeat;}
+li.aboutus a:hover { background: url(img/menu/gen_3_over_jp.gif) no-repeat;}
+
+li.sub_mission { background: url(img/menu/submenu/sub_gen_3_1_off_jp.gif) no-repeat;}
+li.sub_mission_on { background: url(img/menu/submenu/sub_gen_3_1_on_jp.gif) no-repeat;}
+li.sub_mission a:hover { background: url(img/menu/submenu/sub_gen_3_1_over_jp.gif) no-repeat;}
+
+li.sub_organizationoverview { background: url(img/menu/submenu/sub_gen_3_2_off_jp.gif) no-repeat;}
+li.sub_organizationoverview_on { background: url(img/menu/submenu/sub_gen_3_2_on_jp.gif) no-repeat;}
+li.sub_organizationoverview a:hover { background: url(img/menu/submenu/sub_gen_3_2_over_jp.gif) no-repeat;}
+
+li.sub_pangaean { background: url(img/menu/submenu/sub_gen_3_3_off_jp.gif) no-repeat;}
+li.sub_pangaean_on { background: url(img/menu/submenu/sub_gen_3_3_on_jp.gif) no-repeat;}
+li.sub_pangaean a:hover { background: url(img/menu/submenu/sub_gen_3_3_over_jp.gif) no-repeat;}
+
+li.sub_subsidiesandentrustedprojects { background: url(img/menu/submenu/sub_gen_3_4_off_jp.gif) no-repeat;}
+li.sub_subsidiesandentrustedprojects_on { background: url(img/menu/submenu/sub_gen_3_4_on_jp.gif) no-repeat;}
+li.sub_subsidiesandentrustedprojects a:hover { background: url(img/menu/submenu/sub_gen_3_4_over_jp.gif) no-repeat;}
+
+
+li.reportsbyparticipants { background: url(img/menu/gen_4_off_jp.gif) no-repeat;}
+li.reportsbyparticipants_on { background: url(img/menu/gen_4_on_jp.gif) no-repeat;}
+li.reportsbyparticipants a:hover { background: url(img/menu/gen_4_over_jp.gif) no-repeat;}
+
+li.sub_voicesofactivityparticipants { background: url(img/menu/submenu/sub_gen_4_1_off_jp.gif) no-repeat;}
+li.sub_voicesofactivityparticipants_on { background: url(img/menu/submenu/sub_gen_4_1_on_jp.gif) no-repeat;}
+li.sub_voicesofactivityparticipants a:hover { background: url(img/menu/submenu/sub_gen_4_1_over_jp.gif) no-repeat;}
+
+li.sub_participantsurvey { background: url(img/menu/submenu/sub_gen_4_2_off_jp.gif) no-repeat;}
+li.sub_participantsurvey_on { background: url(img/menu/submenu/sub_gen_4_2_on_jp.gif) no-repeat;}
+li.sub_participantsurvey a:hover { background: url(img/menu/submenu/sub_gen_4_2_over_jp.gif) no-repeat;}
+
+
+li.qanda { background: url(img/menu/gen_5_off_jp.gif) no-repeat;}
+li.qanda_on { background: url(img/menu/gen_5_on_jp.gif) no-repeat;}
+li.qanda a:hover { background: url(img/menu/gen_5_over_jp.gif) no-repeat;}
+
+li.howtojoin { background: url(img/menu/gen_6_off_jp.gif) no-repeat;}
+li.howtojoin_on { background: url(img/menu/gen_6_on_jp.gif) no-repeat;}
+li.howtojoin a:hover { background: url(img/menu/gen_6_over_jp.gif) no-repeat;}
+
+li.sub_locationscurrentlyacceptingparticipants { background: url(img/menu/submenu/sub_gen_6_1_off_jp.gif) no-repeat;}
+li.sub_locationscurrentlyacceptingparticipants_on { background: url(img/menu/submenu/sub_gen_6_1_on_jp.gif) no-repeat;}
+li.sub_locationscurrentlyacceptingparticipants a:hover { background: url(img/menu/submenu/sub_gen_6_1_over_jp.gif) no-repeat;}
+
+li.sub_howtoapply { background: url(img/menu/submenu/sub_gen_6_2_off_jp.gif) no-repeat;}
+li.sub_howtoapply_on { background: url(img/menu/submenu/sub_gen_6_2_on_jp.gif) no-repeat;}
+li.sub_howtoapply a:hover { background: url(img/menu/submenu/sub_gen_6_2_over_jp.gif) no-repeat;}
+
+li.sub_visitingouractivitysites { background: url(img/menu/submenu/sub_gen_6_3_off_jp.gif) no-repeat;}
+li.sub_visitingouractivitysites_on { background: url(img/menu/submenu/sub_gen_6_3_on_jp.gif) no-repeat;}
+li.sub_visitingouractivitysites a:hover { background: url(img/menu/submenu/sub_gen_6_3_over_jp.gif) no-repeat;}
+
+
+li.safetyissues { background: url(img/menu/gen_7_off_jp.gif) no-repeat;}
+li.safetyissues_on { background: url(img/menu/gen_7_on_jp.gif) no-repeat;}
+li.safetyissues a:hover { background: url(img/menu/gen_7_over_jp.gif) no-repeat;}
+
+li.sub_privacypolicy { background: url(img/menu/submenu/sub_gen_7_1_off_jp.gif) no-repeat;}
+li.sub_privacypolicy_on { background: url(img/menu/submenu/sub_gen_7_1_on_jp.gif) no-repeat;}
+li.sub_privacypolicy a:hover { background: url(img/menu/submenu/sub_gen_7_1_over_jp.gif) no-repeat;}
+
+
+li.resources { background: url(img/menu/gen_8_off_jp.gif) no-repeat;}
+li.resources_on { background: url(img/menu/gen_8_on_jp.gif) no-repeat;}
+li.resources a:hover { background: url(img/menu/gen_8_over_jp.gif) no-repeat;}
+
+li.sub_brochure { background: url(img/menu/submenu/sub_gen_8_1_off_jp.gif) no-repeat;}
+li.sub_brochure_on { background: url(img/menu/submenu/sub_gen_8_1_on_jp.gif) no-repeat;}
+li.sub_brochure a:hover { background: url(img/menu/submenu/sub_gen_8_1_over_jp.gif) no-repeat;}
+
+li.sub_video { background: url(img/menu/submenu/sub_gen_8_2_off_jp.gif) no-repeat;}
+li.sub_video_on { background: url(img/menu/submenu/sub_gen_8_2_on_jp.gif) no-repeat;}
+li.sub_video a:hover { background: url(img/menu/submenu/sub_gen_8_2_over_jp.gif) no-repeat;}
+
+li.sub_pressarticle { background: url(img/menu/submenu/sub_gen_8_3_off_jp.gif) no-repeat;}
+li.sub_pressarticle_on { background: url(img/menu/submenu/sub_gen_8_3_on_jp.gif) no-repeat;}
+li.sub_pressarticle a:hover { background: url(img/menu/submenu/sub_gen_8_3_over_jp.gif) no-repeat;}
+
+li.sub_academicpaper { background: url(img/menu/submenu/sub_gen_8_4_off_jp.gif) no-repeat;}
+li.sub_academicpaper_on { background: url(img/menu/submenu/sub_gen_8_4_on_jp.gif) no-repeat;}
+li.sub_academicpaper a:hover { background: url(img/menu/submenu/sub_gen_8_4_over_jp.gif) no-repeat;}
+

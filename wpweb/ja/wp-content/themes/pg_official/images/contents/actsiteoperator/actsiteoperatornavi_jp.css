@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+
+li.actsiteoperatortoppage { background:url(img/menu/act_1_off_jp.gif) no-repeat;}
+li.actsiteoperatortoppage_on { background:url(img/menu/act_1_on_jp.gif) no-repeat;}
+li.actsiteoperatortoppage a:hover { background:url(img/menu/act_1_over_jp.gif) no-repeat;}
+
+
+li.startingapangaeaactivitysite { background: url(img/menu/act_2_off_jp.gif) no-repeat;}
+li.startingapangaeaactivitysite_on { background: url(img/menu/act_2_on_jp.gif) no-repeat;}
+li.startingapangaeaactivitysite a:hover { background: url(img/menu/act_2_over_jp.gif) no-repeat;}
+
+li.sub_conditionsforconductingactivity { background:url(img/menu/submenu/sub_act_2_1_off_jp.gif) no-repeat;}
+li.sub_conditionsforconductingactivity_on { background:url(img/menu/submenu/sub_act_2_1_on_jp.gif) no-repeat;}
+li.sub_conditionsforconductingactivity a:hover { background:url(img/menu/submenu/sub_act_2_1_over_jp.gif) no-repeat;}
+
+li.sub_stakeholders { background:url(img/menu/submenu/sub_act_2_2_off_jp.gif) no-repeat;}
+li.sub_stakeholders_on { background:url(img/menu/submenu/sub_act_2_2_on_jp.gif) no-repeat;}
+li.sub_stakeholders a:hover { background:url(img/menu/submenu/sub_act_2_2_over_jp.gif) no-repeat;}
+
+li.sub_guideforpreparation { background:url(img/menu/submenu/sub_act_2_3_off_jp.gif) no-repeat;}
+li.sub_guideforpreparation_on { background:url(img/menu/submenu/sub_act_2_3_on_jp.gif) no-repeat;}
+li.sub_guideforpreparation a:hover { background:url(img/menu/submenu/sub_act_2_3_over_jp.gif) no-repeat;}
+
+li.sub_scheduleforimplementingactivity { background:url(img/menu/submenu/sub_act_2_4_off_jp.gif) no-repeat;}
+li.sub_scheduleforimplementingactivity_on { background:url(img/menu/submenu/sub_act_2_4_on_jp.gif) no-repeat;}
+li.sub_scheduleforimplementingactivity a:hover { background:url(img/menu/submenu/sub_act_2_4_over_jp.gif) no-repeat;}
+
+
+li.pangaeapack { background: url(img/menu/act_3_off_jp.gif) no-repeat;}
+li.pangaeapack_on { background: url(img/menu/act_3_on_jp.gif) no-repeat;}
+li.pangaeapack a:hover { background: url(img/menu/act_3_over_jp.gif) no-repeat;}
+
+li.sub_pangaeamastermanual { background: url(img/menu/submenu/sub_act_3_1_off_jp.gif) no-repeat;}
+li.sub_pangaeamastermanual_on { background: url(img/menu/submenu/sub_act_3_1_on_jp.gif) no-repeat;}
+li.sub_pangaeamastermanual a:hover { background: url(img/menu/submenu/sub_act_3_1_over_jp.gif) no-repeat;}
+
+li.sub_activitystafftraining { background: url(img/menu/submenu/sub_act_3_2_off_jp.gif) no-repeat;}
+li.sub_activitystafftraining_on { background: url(img/menu/submenu/sub_act_3_2_on_jp.gif) no-repeat;}
+li.sub_activitystafftraining a:hover { background: url(img/menu/submenu/sub_act_3_2_over_jp.gif) no-repeat;}
+
+li.sub_pangaeanetsystem { background: url(img/menu/submenu/sub_act_3_3_off_jp.gif) no-repeat;}
+li.sub_pangaeanetsystem_on { background: url(img/menu/submenu/sub_act_3_3_on_jp.gif) no-repeat;}
+li.sub_pangaeanetsystem a:hover { background: url(img/menu/submenu/sub_act_3_3_over_jp.gif) no-repeat;}
+
+
+li.futurestaffmembers { background: url(img/menu/act_4_off_jp.gif) no-repeat;}
+li.futurestaffmembers_on { background: url(img/menu/act_4_on_jp.gif) no-repeat;}
+li.futurestaffmembers a:hover { background: url(img/menu/act_4_over_jp.gif) no-repeat;}
+
+
+li.qanda { background: url(img/menu/act_5_off_jp.gif) no-repeat;}
+li.qanda_on { background: url(img/menu/act_5_on_jp.gif) no-repeat;}
+li.qanda a:hover { background: url(img/menu/act_5_over_jp.gif) no-repeat;}
+
+
+li.whatispangaea { background: url(img/menu/act_6_off_jp.gif) no-repeat;}
+li.whatispangaea_on { background: url(img/menu/act_6_on_jp.gif) no-repeat;}
+li.whatispangaea a:hover { background: url(img/menu/act_6_over_jp.gif) no-repeat;}
+
+li.sub_whatdowedo { background: url(img/menu/submenu/sub_act_6_1_off_jp.gif) no-repeat;}
+li.sub_whatdowedo_on { background: url(img/menu/submenu/sub_act_6_1_on_jp.gif) no-repeat;}
+li.sub_whatdowedo a:hover { background: url(img/menu/submenu/sub_act_6_1_over_jp.gif) no-repeat;}
+
+li.sub_aboutpangaeaactivity { background: url(img/menu/submenu/sub_act_6_2_off_jp.gif) no-repeat;}
+li.sub_aboutpangaeaactivity_on { background: url(img/menu/submenu/sub_act_6_2_on_jp.gif) no-repeat;}
+li.sub_aboutpangaeaactivity a:hover { background: url(img/menu/submenu/sub_act_6_2_over_jp.gif) no-repeat;}
+
+li.sub_aboutpangaearandd { background: url(img/menu/submenu/sub_act_6_3_off_jp.gif) no-repeat;}
+li.sub_aboutpangaearandd_on { background: url(img/menu/submenu/sub_act_6_3_on_jp.gif) no-repeat;}
+li.sub_aboutpangaearandd a:hover { background: url(img/menu/submenu/sub_act_6_3_over_jp.gif) no-repeat;}
+
+li.aboutus { background: url(img/menu/act_7_off_jp.gif) no-repeat;}
+li.aboutus_on { background: url(img/menu/act_7_on_jp.gif) no-repeat;}
+li.aboutus a:hover { background: url(img/menu/act_7_over_jp.gif) no-repeat;}
+
+li.sub_mission { background: url(img/menu/submenu/sub_act_7_1_off_jp.gif) no-repeat;}
+li.sub_mission_on { background: url(img/menu/submenu/sub_act_7_1_on_jp.gif) no-repeat;}
+li.sub_mission a:hover { background: url(img/menu/submenu/sub_act_7_1_over_jp.gif) no-repeat;}
+
+li.sub_organizationoverview { background: url(img/menu/submenu/sub_act_7_2_off_jp.gif) no-repeat;}
+li.sub_organizationoverview_on { background: url(img/menu/submenu/sub_act_7_2_on_jp.gif) no-repeat;}
+li.sub_organizationoverview a:hover { background: url(img/menu/submenu/sub_act_7_2_over_jp.gif) no-repeat;}
+
+li.sub_pangaean { background: url(img/menu/submenu/sub_act_7_3_off_jp.gif) no-repeat;}
+li.sub_pangaean_on { background: url(img/menu/submenu/sub_act_7_3_on_jp.gif) no-repeat;}
+li.sub_pangaean a:hover { background: url(img/menu/submenu/sub_act_7_3_over_jp.gif) no-repeat;}
+
+li.sub_subsidiesandentrustedprojects { background: url(img/menu/submenu/sub_act_7_4_off_jp.gif) no-repeat;}
+li.sub_subsidiesandentrustedprojects_on { background: url(img/menu/submenu/sub_act_7_4_on_jp.gif) no-repeat;}
+li.sub_subsidiesandentrustedprojects a:hover { background: url(img/menu/submenu/sub_act_7_4_over_jp.gif) no-repeat;}
+
+
+li.safetyissues { background: url(img/menu/act_8_off_jp.gif) no-repeat;}
+li.safetyissues_on { background: url(img/menu/act_8_on_jp.gif) no-repeat;}
+li.safetyissues a:hover { background: url(img/menu/act_8_over_jp.gif) no-repeat;}
+
+li.sub_privacypolicy { background: url(img/menu/submenu/sub_act_8_1_off_jp.gif) no-repeat;}
+li.sub_privacypolicy_on { background: url(img/menu/submenu/sub_act_8_1_on_jp.gif) no-repeat;}
+li.sub_privacypolicy a:hover { background: url(img/menu/submenu/sub_act_8_1_over_jp.gif) no-repeat;}
+
+
+li.resources { background: url(img/menu/act_9_off_jp.gif) no-repeat;}
+li.resources_on { background: url(img/menu/act_9_on_jp.gif) no-repeat;}
+li.resources a:hover { background: url(img/menu/act_9_over_jp.gif) no-repeat;}
+
+li.sub_brochure { background: url(img/menu/submenu/sub_act_9_1_off_jp.gif) no-repeat;}
+li.sub_brochure_on { background: url(img/menu/submenu/sub_act_9_1_on_jp.gif) no-repeat;}
+li.sub_brochure a:hover { background: url(img/menu/submenu/sub_act_9_1_over_jp.gif) no-repeat;}
+
+li.sub_video { background: url(img/menu/submenu/sub_act_9_2_off_jp.gif) no-repeat;}
+li.sub_video_on { background: url(img/menu/submenu/sub_act_9_2_on_jp.gif) no-repeat;}
+li.sub_video a:hover { background: url(img/menu/submenu/sub_act_9_2_over_jp.gif) no-repeat;}
+
+li.sub_pressarticle { background: url(img/menu/submenu/sub_act_9_3_off_jp.gif) no-repeat;}
+li.sub_pressarticle_on { background: url(img/menu/submenu/sub_act_9_3_on_jp.gif) no-repeat;}
+li.sub_pressarticle a:hover { background: url(img/menu/submenu/sub_act_9_3_over_jp.gif) no-repeat;}
+
+li.sub_academicpaper { background: url(img/menu/submenu/sub_act_9_4_off_jp.gif) no-repeat;}
+li.sub_academicpaper_on { background: url(img/menu/submenu/sub_act_9_4_on_jp.gif) no-repeat;}
+li.sub_academicpaper a:hover { background: url(img/menu/submenu/sub_act_9_4_over_jp.gif) no-repeat;}
+
