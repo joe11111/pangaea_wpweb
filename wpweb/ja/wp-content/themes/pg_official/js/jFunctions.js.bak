@@ -9,8 +9,7 @@ function addclassMainNavi(stakeholderArray,current){
 	for(var i = 0; i < $(".menu-main-navi-container").find(".menu-item").length; i++ ){
 		$(".menu-main-navi-container").find(".menu-item").eq(i).addClass(stakeholderArray[i]);
 		$(".menu-main-navi-container").find(".menu-item").eq(i).find("a").text("<div>" +
-				$(".menu-main-navi-container").find(".menu-item").eq(i).find("a").text() +"</div>");
-				//
+				$(".menu-main-navi-container").find(".menu-item").eq(i).find("a").text() +"</div>");//
 	}
 	$(".menu-main-navi-container").find("."+ current).addClass("current-main-navi");
 }

@@ -10,9 +10,9 @@ function addclassMainNavi(stakeholderArray,current){
 		$(".menu-main-navi-container").find(".menu-item").eq(i).addClass(stakeholderArray[i]);
 		$(".menu-main-navi-container").find(".menu-item").eq(i).find("a").text("<div>" +
 				$(".menu-main-navi-container").find(".menu-item").eq(i).find("a").text() +"</div>");
-				//
 	}
 	$(".menu-main-navi-container").find("."+ current).addClass("current-main-navi");
+//	$(".menu-main-navi-container").find(".menu-item").find("a").find("div").addClass("navi-text");
 }
 //サイドナビゲーションにクラス追加
 function addclassSideNavi(){
@@ -69,7 +69,7 @@ function changeMainNaviBtnExternal(imageSrc, colorArray ){
 	$("#main-navi .current-main-navi a")
 		.html('<image src=\"' + imageSrc + '\" alt="">');
 	changeMainNaviNotCurrent(colorArray);	//非カレントメインナビ
-	setupMainNaviTextCenter();
+	setupMainNaviTextCenter();//テキストの中央揃え
 }
 //非カレントメインナビ
 function changeMainNaviNotCurrent(colorArray){
@@ -85,6 +85,7 @@ function changeMainNaviNotCurrent(colorArray){
 		}
 	}
 }
+//メインナビゲーションテキストの中央揃え
 function setupMainNaviTextCenter(){
 	for(var i=0;i < $(".menu-main-navi-container").find(".menu-item").find("a div div").length;i++){
 		var pHeight =$(".menu-main-navi-container").find(".menu-item").find("a div div").parents("div").eq(i).height()/2;
@@ -135,6 +136,8 @@ function changeSideNaviBtnCss(symbolColor){
 		});
 	nl_registration_bgcolor(symbolColor);//バナータイトルカラー
 }
+
+
 //side-navi 親リンクカラー変更
 function changeSideNaviParentActiveColor(item,symbolColor){
 	$(item)
@@ -165,8 +168,9 @@ function changeSideNaviItemPassiveColor(item){
 
 //banner色変更
 function nl_registration_bgcolor(symbolColor){
-	$("#nl_registration .nls_title").css("backgroundColor",symbolColor);
+	$("#nl_registration_en .nls_title").css("backgroundColor",symbolColor);
 }
+
 //フォントサイズmousehover
 /*
 */
@@ -194,18 +198,18 @@ function changeSizeClickEvent(){
 //tableカラーの設定
 function setupTablecolor(tablecolor){
 	$("#currentcolortable table, #currentcolortable td").css("border-color",tablecolor);
-	$("#currentcolortable table .cctBack").css("backgroundColor",tablecolor);
 }
+
 //影効果
 function setupShadowCss(){
 	
 	var shadowStartPoint = $("#title-image img").offset();
 	$("#content-shadow")
 
+
 		.css("box-shadow","0px 0px 5px 3px rgba(10,10,10,0.4)")
 		.css("z-index","0")
 		;
-
 	$(".menu-main-navi-container").find(".menu-item:not(.current-main-navi)")
 		.css("position","relative")
 		.css("z-index","0")

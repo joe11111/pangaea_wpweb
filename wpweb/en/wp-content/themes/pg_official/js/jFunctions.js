@@ -81,7 +81,6 @@ function changeMainNaviNotCurrent(colorArray){
 				.html('<div>'+ $("#main-navi .menu-item a").eq(i).text() +'</div>')
 				.css("border-radius","4px")
 				.css("backgroundColor",colorArray[i])
-	//			.css("backgroundColor","rgb(238,130,124)")
 			;
 		}
 	}
@@ -158,7 +157,6 @@ function changeSideNaviItemActiveColor(item,symbolColor){
 	$(item)
 		.css("backgroundColor","rgb(200,200,200)")
 		.css("border-left-color",symbolColor)
-//		.css("border-left-color","rgb(236,166,15)")
 			.find("a").css("color","#000");
 }
 function changeSideNaviItemPassiveColor(item){
@@ -172,7 +170,6 @@ function changeSideNaviItemPassiveColor(item){
 function nl_registration_bgcolor(symbolColor){
 	$("#nl_registration_en .nls_title").css("backgroundColor",symbolColor);
 }
-
 //フォントサイズmousehover
 /*
 */
@@ -240,12 +237,7 @@ function setupShadowCss(){
 //コンテンツ内 トピックのCSS設定
 function setupTopicCss(symbolColor){
 	$("#main-content .topic")
-//		.css("border-left-width","5px")
-//		.css("border-left-style","solid")
-//		.css("padding","2px 12px")
 		.css("border-left-color",symbolColor);
-//		.css("margin","15px 0px")
-		//	background-color:#ebe8de;
 }
 
 function appendAAA(str){

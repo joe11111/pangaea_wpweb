@@ -164,20 +164,20 @@ dl#organizationoverview_2 dd {
     border-collapse: collapse;
 }
 	#currentcolortable td {
-		 -moz-border-bottom-colors: none;
-		 -moz-border-left-colors: none;
-		 -moz-border-right-colors: none;
-		 -moz-border-top-colors: none;
-		 border-collapse: collapse;
+		-moz-border-bottom-colors: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		border-collapse: collapse;
 		/*
-		 border-color: #ECA60F;
+		border-color: #ECA60F;
 		*/
-		 border-image: none;
-		 border-style: solid none solid solid;
-		 border-width: 1px;
-		 padding-left: 5px;
-		 padding-right: 5px;
-		 font-size: 12px;
+		border-image: none;
+		border-style: solid none solid solid;
+		border-width: 1px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 12px;
 	}
 
 .video_right {
@@ -190,8 +190,6 @@ dl#organizationoverview_2 dd {
 	overflow:hidden;
 	float:left;
 	width:100%;
-	/*
-	*/
 	background-color:#fff;
 }
 	#main-navi ul{
@@ -216,22 +214,29 @@ dl#organizationoverview_2 dd {
 		width:138;
 		height:36;
 		position: relative;
-		padding-top:10px;
+		padding-top:0px;
 		text-align:center;
 		 float: inherit;
 		/*
 		*/
 	}
 	#main-navi .menu-item:not(.current-main-navi) a  div{
-		color: #333;
+		color: #555;
 		font-weight: bold;
 		position: relative;
 		overflow:hidden;
 		 float: inherit;
 		 height: 36px;
 		 margin-top: 0;
+		 margin-bottom: 2px;
 		 width: 136px;
+		 font-size: 16px;
 	}
+		#main-navi .menu-item:not(.current-main-navi) a  div div{
+			padding:0px;
+			height:auto;
+		}
+	
 #side-navi{
 	color:#aaa;
 	width:200px;
@@ -240,13 +245,6 @@ dl#organizationoverview_2 dd {
 	padding-left:4px;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro",
 	 	"ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif;
-	/*
-	padding-bottom:0px;
-	margin-bottom:0px;
-	background-color:#ebe8de;
-	background-color:#ccc;
-	margin-left:6px;
-	*/
 }	
 	#side-navi ul{
 		list-style:none;
@@ -351,9 +349,6 @@ dl#organizationoverview_2 dd {
 	padding-top:5px;
 	padding-left:38px;
 	padding-right:9px;
-	/*
-	min-width:700px;
-	*/
 }
 
 	#footerbg #footer{
@@ -366,11 +361,6 @@ dl#organizationoverview_2 dd {
 		padding:0px;
 		font-family:"Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro",
 		 	"ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif;
-	/*	
-		padding-left:40px;
-		margin-top:-20;
-		float:right;
-	*/
 	}
 a{
     outline: none;
