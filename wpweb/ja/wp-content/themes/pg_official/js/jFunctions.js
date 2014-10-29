@@ -2,7 +2,6 @@
 function addclassNavigations(stakeholderArray, current){
 	addclassMainNavi(stakeholderArray,current);
 	addclassSideNavi();
-//	addclassTest(stakeholderArray, current);
 }
 //メインナビゲーションにクラス追加
 function addclassMainNavi(stakeholderArray,current){
@@ -10,7 +9,6 @@ function addclassMainNavi(stakeholderArray,current){
 		$(".menu-main-navi-container").find(".menu-item").eq(i).addClass(stakeholderArray[i]);
 		$(".menu-main-navi-container").find(".menu-item").eq(i).find("a").text("<div>" +
 				$(".menu-main-navi-container").find(".menu-item").eq(i).find("a").text() +"</div>");
-				//
 	}
 	$(".menu-main-navi-container").find("."+ current).addClass("current-main-navi");
 }
@@ -47,8 +45,8 @@ function addParameterMainNavi(stakeholderArray){
 }
 //サイドナビゲーションにパラメータ追加
 function addParameterSideNavi(current){
-	for(var i=0;i<$("#side-navi a").length;i++){
-		$("#side-navi a").eq(i).attr("href",$("#side-navi a").eq(i).attr("href") + "?stakeholder=" + current);
+	for(var i=0;i<$("#side-navi .widget-area a").length;i++){
+		$("#side-navi .widget-area a").eq(i).attr("href",$("#side-navi .widget-area a").eq(i).attr("href") + "?stakeholder=" + current);
 	}
 }
 //サイドナビゲーションの子要素を非表示にする
@@ -69,11 +67,10 @@ function changeMainNaviBtnExternal(imageSrc, colorArray ){
 	$("#main-navi .current-main-navi a")
 		.html('<image src=\"' + imageSrc + '\" alt="">');
 	changeMainNaviNotCurrent(colorArray);	//非カレントメインナビ
-	setupMainNaviTextCenter();
+	setupMainNaviTextCenter();//テキストの中央揃え
 }
 //非カレントメインナビ
 function changeMainNaviNotCurrent(colorArray){
-//	for(var i = 0; i < $("#main-navi .menu-item:not(.current-main-navi) a").length; i++ ){
 	for(var i = 0; i < $("#main-navi .menu-item a").length; i++ ){
 		if($("#main-navi .menu-item a").eq(i).parents(".menu-item").hasClass("current-main-navi")){
 		}else{
@@ -85,6 +82,7 @@ function changeMainNaviNotCurrent(colorArray){
 		}
 	}
 }
+//メインナビゲーションテキストの中央揃え
 function setupMainNaviTextCenter(){
 	for(var i=0;i < $(".menu-main-navi-container").find(".menu-item").find("a div div").length;i++){
 		var pHeight =$(".menu-main-navi-container").find(".menu-item").find("a div div").parents("div").eq(i).height()/2;
@@ -129,17 +127,17 @@ function changeSideNaviBtnCss(symbolColor){
 		changeSideNaviItemPassiveColor("#side-navi .menu-item:not(.current-menu-item)");
 		//マウスホバー
 		$("#side-navi .menu-item:not(.current-menu-item)").hover(function(){
-			changeSideNaviItemActiveColor(this,"rgb(200,200,200)"/*symbolColor*/);
+			changeSideNaviItemActiveColor(this,"rgb(200,200,200)");
 		},function(){
 			changeSideNaviItemPassiveColor(this);
 		});
 	nl_registration_bgcolor(symbolColor);//バナータイトルカラー
 }
+
 //side-navi 親リンクカラー変更
 function changeSideNaviParentActiveColor(item,symbolColor){
 	$(item)
 		.css("backgroundColor","rgb(200,200,200)")
-//		.css("border-left-color","rgb(236,166,15)")
 		.css("border-left-color",symbolColor)
 			.parent("a").css("color","#000");
 }
@@ -168,8 +166,6 @@ function nl_registration_bgcolor(symbolColor){
 	$("#nl_registration .nls_title").css("backgroundColor",symbolColor);
 }
 //フォントサイズmousehover
-/*
-*/
 function changeSizeHover(){
 	$("#fontsize").find("img:eq(0), img:eq(2)").mouseenter(function(){
 		$(this).css("cursor","pointer");
@@ -183,29 +179,26 @@ function changeSizeClickEvent(){
 	
 	$("#fontsize img").eq(0).click(function(){
 		$("#main-content").css("font-size","1.2em");
-//		setupShadowCss();
 	});
 	$("#fontsize img").eq(2).click(function(){
 		$("#main-content").css("font-size","0.75em");
-//		setupShadowCss();
 	});
 }
 
 //tableカラーの設定
 function setupTablecolor(tablecolor){
 	$("#currentcolortable table, #currentcolortable td").css("border-color",tablecolor);
-	$("#currentcolortable table .cctBack").css("backgroundColor",tablecolor);
+	$("#currentcolortable table .cctBack").css("backgroundColor",tablecolor);//テーブル見出し部の色
 }
+
 //影効果
 function setupShadowCss(){
 	
 	var shadowStartPoint = $("#title-image img").offset();
 	$("#content-shadow")
-
 		.css("box-shadow","0px 0px 5px 3px rgba(10,10,10,0.4)")
 		.css("z-index","0")
 		;
-
 	$(".menu-main-navi-container").find(".menu-item:not(.current-main-navi)")
 		.css("position","relative")
 		.css("z-index","0")
@@ -229,17 +222,15 @@ function setupShadowCss(){
 		.css("z-index","2")
 	;
 }
-/*
-*/
 //コンテンツ内 トピックのCSS設定
 function setupTopicCss(symbolColor){
 	$("#main-content .topic")
 		.css("border-left-color",symbolColor);
 }
-
+/*
 function appendAAA(str){
 	$("H3").append(str);
-}
+}*/
 function getPhp(){
 	return "\'<?php the_permalink(); ?>\'"
 }

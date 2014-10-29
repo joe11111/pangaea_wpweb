@@ -6,15 +6,9 @@
 ?>
 <div id="banner">
 	<div id="banner-link">
-		<a href="http://www.pangaean.org/blog/japanese/">
-			<img width="120" alt="blog" src="<?php bloginfo('template_directory') ?>/images/button_blog_jp.gif">
-		</a>
-		<a href="http://www.pangaean.org/project/ymcprj/">
-			<img width="120" alt="ymc" src="<?php bloginfo('template_directory') ?>/images/button_ymc_jp.gif">
-		</a>
-		<a href="http://www.pangaean.org/iconsurvey/survey_top.php?browserlang=ja">
-			<img width="120" alt="survey" src="<?php bloginfo('template_directory') ?>/images/button_survey_jp.gif">
-		</a>
+		<img width="120" alt="blog" src="<?php bloginfo('template_directory') ?>/images/button_blog_jp.gif">
+		<img width="120" alt="ymc" src="<?php bloginfo('template_directory') ?>/images/button_ymc_jp.gif">
+		<img width="120" alt="survey" src="<?php bloginfo('template_directory') ?>/images/button_survey_jp.gif">
 	</div>
 	
 	<div id="nl_registration">

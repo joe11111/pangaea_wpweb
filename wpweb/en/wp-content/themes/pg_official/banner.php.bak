@@ -9,10 +9,10 @@
 		<a href="http://www.pangaean.org/blog/english/">
 			<img width="120" alt="blog" src="<?php bloginfo('template_directory') ?>/images/button_blog_en.gif">
 		</a>
-		<a href="http://www.pangaean.org/blog/english/archives/4_pangaea_ring/index.html">
+		<a href="">
 			<img width="120" alt="ymc" src="<?php bloginfo('template_directory') ?>/images/button_pangaea_ring_eng.gif">
 		</a>
-		<a href="http://www.pangaean.org/iconsurvey/survey_top.php?browserlang=en">
+		<a href="">
 			<img width="120" alt="survey" src="<?php bloginfo('template_directory') ?>/images/button_survey_en.gif">
 		</a>
 	</div>

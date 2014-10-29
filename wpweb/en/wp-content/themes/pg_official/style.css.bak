@@ -77,7 +77,7 @@ body{
 		
 	#main-content p {
 		line-height: 1.75;
-		font-size:14px;
+		font-size:12px;
 		margin: 0 0 14px;
 		text-align: justify;
 		
@@ -168,9 +168,6 @@ dl#organizationoverview_2 dd {
 #currentcolortable table {
     background-color: #ffffff;
     border: 1px solid;
-	/*
-	#ECA60F;
-	*/
     border-collapse: collapse;
 }
 	#currentcolortable td {
@@ -179,9 +176,6 @@ dl#organizationoverview_2 dd {
 		-moz-border-right-colors: none;
 		-moz-border-top-colors: none;
 		border-collapse: collapse;
-		/*
-		border-color: #ECA60F;
-		*/
 		border-image: none;
 		border-style: solid none solid solid;
 		border-width: 1px;
@@ -200,8 +194,6 @@ dl#organizationoverview_2 dd {
 	overflow:hidden;
 	float:left;
 	width:100%;
-	/*
-	*/
 	background-color:#fff;
 }
 	#main-navi ul{
@@ -212,9 +204,6 @@ dl#organizationoverview_2 dd {
 	#main-navi li{
 		height:36px;
 		width:138px;
-		/*
-		background-color:#3aa;
-		*/
 		float:left;
 		padding-right:6px;
 		
@@ -261,8 +250,7 @@ dl#organizationoverview_2 dd {
 	#side-navi ul{
 		list-style:none;
 	}	
-	/*
-	*/
+
 		#side-navi .widget-area{
 		
 		}
@@ -276,11 +264,6 @@ dl#organizationoverview_2 dd {
 		text-decoration: none;
 		color:#000;
 	}
-	/*
-	#side-navi a h3{
-		border-style:none;
-	}
-	*/
 	#side-navi .menu-item a{
 	
 	}
@@ -293,10 +276,6 @@ dl#organizationoverview_2 dd {
 		padding-bottom:20px;
 	}
 	#side-navi #banner #banner-link{
-		/*
-		left-margin:auto;
-		right-margin:auto;
-		*/
 	}
 		#side-navi #banner #banner-link img{
 			margin-left:40px;
@@ -304,20 +283,9 @@ dl#organizationoverview_2 dd {
 			padding-bottom:10px;
 		}
 	
-		#side-navi #banner #nl_registration_en{
+		#side-navi #banner #nl_registration{
 			padding:0px 0px 0px 11px;
-			/*
-			margin:0px -2px 0px;
-			margin-top:-23px;
-			padding-top:20px;
-			margin-left:auto;
-			*/
 		}
-/*
-	#side-navi a:hover{
-		background-color:#ccc;
-	}
-*/
 
 #line {
     border: 1px solid #CCCCCC;
@@ -364,6 +332,7 @@ dl#organizationoverview_2 dd {
 }
 
 	#footerbg #footer{
+		font-size:12px;
 		color:#FFF;
 		float:right;
 		width:100%;
@@ -374,6 +343,19 @@ dl#organizationoverview_2 dd {
 		font-family:"Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro",
 		 	"ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif;
 	}
+		#footer a{
+			color:#ffffff;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		#footer a:hover, a:focus{
+			color:#ec6d71;
+			text-decoration:underline;	
+		}
+		#footer a:active{
+			color:#e2041b;
+			text-decoration:underline;			
+		}
 a{
     outline: none;
 }
