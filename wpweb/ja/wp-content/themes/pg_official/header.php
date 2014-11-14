@@ -93,7 +93,7 @@ $(function(){
     						<a href="http://www.pangaean.org/web/german/general/generaltop_de.html">
                     			<img width="54" height="18" alt="Deutsch" src="<?php bloginfo('template_directory') ?>/images/header_language_DE.gif">
                     		</a>
-                    		<a href="http://www.pangaean.org/web/english/general/generaltop_en.html">
+                    		<a href="http://pangaean.org/wpweb/en/">
 	                    		<img width="54" height="18" alt="English" src="<?php bloginfo('template_directory') ?>/images/header_language_EN.gif">
                     		</a>
                     	</div><!-- lang-navi -->

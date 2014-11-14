@@ -86,16 +86,16 @@ $(function(){
 	                    		<img width="23" height="18" alt="font-small" src="<?php bloginfo('template_directory') ?>/images/header_font_small.gif">
                     		</div><!-- fontsize -->
                     		
-                    		<img width="54" height="18" alt="Japanese" src="<?php bloginfo('template_directory') ?>/images/header_language_JP.gif">
+                    		<a href="http://pangaean.org/wpweb/ja/">
+								<img width="54" height="18" alt="Japanese" src="<?php bloginfo('template_directory') ?>/images/header_language_JP.gif">
+    						</a>
                     		<a href="http://www.pangaean.org/web/korean/general/generaltop_kr.html">
 	                    		<img width="54" height="18" alt="Korean" src="<?php bloginfo('template_directory') ?>/images/header_language_KR.gif">
     						</a>
     						<a href="http://www.pangaean.org/web/german/general/generaltop_de.html">
                     			<img width="54" height="18" alt="Deutsch" src="<?php bloginfo('template_directory') ?>/images/header_language_DE.gif">
                     		</a>
-                    		<a href="http://www.pangaean.org/web/english/general/generaltop_en.html">
-	                    		<img width="54" height="18" alt="English" src="<?php bloginfo('template_directory') ?>/images/header_language_EN.gif">
-                    		</a>
+                    		<img width="54" height="18" alt="English" src="<?php bloginfo('template_directory') ?>/images/header_language_EN.gif">
                     	</div><!-- lang-navi -->
                  		
 
