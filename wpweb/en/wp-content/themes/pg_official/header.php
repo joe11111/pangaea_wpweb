@@ -85,8 +85,9 @@ $(function(){
 	                    		<img width="4" height="18" alt="font-big" src="<?php bloginfo('template_directory') ?>/images/whitespacer.gif">
 	                    		<img width="23" height="18" alt="font-small" src="<?php bloginfo('template_directory') ?>/images/header_font_small.gif">
                     		</div><!-- fontsize -->
-                    		
-                    		<a href="http://pangaean.org/wpweb/ja/">
+
+								<a href="<?php echo get_option('siteurl') ?>/../ja/">
+								
 								<img width="54" height="18" alt="Japanese" src="<?php bloginfo('template_directory') ?>/images/header_language_JP.gif">
     						</a>
                     		<a href="http://www.pangaean.org/web/korean/general/generaltop_kr.html">
