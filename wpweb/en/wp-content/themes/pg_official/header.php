@@ -3,10 +3,8 @@
 <head>
      <meta charset="UTF-8">
      <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
-     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSSフィード" href="<?php bloginfo('rss2_url'); ?>">
-     <meta name="description" content="WordPress 3.0用の無料テーマです。">
-     <meta name="keywords" content="WordPress 無料 テーマ, WordPress テーマ, WordPress 3.0 テーマ, WordPress テンプレート, WordPress 無料テンプレート">
- 
+     <meta name="description" content="Pangaea is a non-profit organization headquartered in Kyoto, Japan. Its mission is to be a peace engineering laboratory for the creation of a universal playground, where children around the world can develop personal bonds, transcending the boundaries of language, time and space.">
+
 <!-- External files -->
      <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
  

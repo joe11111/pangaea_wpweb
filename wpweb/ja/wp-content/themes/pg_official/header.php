@@ -3,10 +3,8 @@
 <head>
      <meta charset="UTF-8">
      <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
-     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSSフィード" href="<?php bloginfo('rss2_url'); ?>">
-     <meta name="description" content="WordPress 3.0用の無料テーマです。">
-     <meta name="keywords" content="WordPress 無料 テーマ, WordPress テーマ, WordPress 3.0 テーマ, WordPress テンプレート, WordPress 無料テンプレート">
- 
+     <meta name="description" content="パンゲアは京都に本部を置く特定非営利活動法人です。平和技術の研究開発をミッションとし、言語と時間・空間の障壁を乗り越えて世界中のこども達が個人的なつながりを築くための『ユニバーサル・プレイグラウンド』を創ることを目指しています。">
+
 <!-- External files -->
      <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
  
