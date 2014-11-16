@@ -3,7 +3,7 @@
 <head>
      <meta charset="UTF-8">
      <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
-     <meta name="description" content="Pangaea is a non-profit organization headquartered in Kyoto, Japan. Its mission is to be a peace engineering laboratory for the creation of a universal playground, where children around the world can develop personal bonds, transcending the boundaries of language, time and space.">
+     <meta name="description" content="<?php bloginfo('description'); ?>">
 
 <!-- External files -->
      <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">

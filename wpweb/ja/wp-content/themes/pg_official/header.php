@@ -3,7 +3,7 @@
 <head>
      <meta charset="UTF-8">
      <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
-     <meta name="description" content="パンゲアは京都に本部を置く特定非営利活動法人です。平和技術の研究開発をミッションとし、言語と時間・空間の障壁を乗り越えて世界中のこども達が個人的なつながりを築くための『ユニバーサル・プレイグラウンド』を創ることを目指しています。">
+     <meta name="description" content="<?php bloginfo('description'); ?>">
 
 <!-- External files -->
      <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
