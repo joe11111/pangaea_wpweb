@@ -29,7 +29,7 @@ add_filter( 'wp_get_attachment_url', 'resourcepath_delete_host_from_attachment_u
 
 function resourcepath_shortcode() {
     if ( preg_match( '|^https?://[^/]+|', get_option( 'siteurl' ), $m ) ) {
-        $resourcepath = $m[0] + "/resource";
+        $resourcepath = $m[0] . "/resource";
     } else {
         $resourcepath = '';
     }
