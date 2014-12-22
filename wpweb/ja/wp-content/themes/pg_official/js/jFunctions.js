@@ -178,10 +178,22 @@ function changeSizeClickEvent(){
 	changeSizeHover();
 	
 	$("#fontsize img").eq(0).click(function(){
-		$("#main-content").css("font-size","1.2em");
+		$("#main-body").css("zoom",
+			$("#main-body").css("zoom")*1.2);
+
+		//firefoxのみで動作
+		if(navigator.userAgent.indexOf("Firefox") != -1){
+			$("#main-content ,h1,h2,#main-content h3,#currentcolortable td").css("font-size", "1.2em");
+		}
 	});
 	$("#fontsize img").eq(2).click(function(){
-		$("#main-content").css("font-size","0.75em");
+		$("#main-body").css("zoom",
+			$("#main-body").css("zoom")*0.8)
+
+		//firefoxのみで動作
+		if(navigator.userAgent.indexOf("Firefox") != -1){
+			$("#main-content ,h1,h2,#main-content h3,#currentcolortable td").css("font-size","0.8em");
+		}
 	});
 }
 

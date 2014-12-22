@@ -77,7 +77,9 @@ body{
 		
 	#main-content p {
 		line-height: 1.75;
+		/*
 		font-size:14px;
+		*/
 		margin: 0 0 14px;
 		text-align: justify;
 		
@@ -315,6 +317,11 @@ dl#organizationoverview_2 dd {
 .lista {
     float: left;
     margin-right: 40px;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
 }
 #footerbg{
 	clear: left;
