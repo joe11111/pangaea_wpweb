@@ -31,9 +31,9 @@
 		<table width="100%" border="0" cellpadding="5" cellspacing="5">
 		 <tr><td>Please fill out the form below and click submit button to subscribe to monthly newsletter of Pangaea.</td></tr>
 		 <tr arign="right"><td>Email 
-		 	<input type="text" name="email" size="20" maxlength="200"/></td></tr>
+		 	<input type="text" name="email" size="20" maxlength="200" style="width:150px"/></td></tr>
 		 <tr arign="right"><td>Name 
-		 	<input type="text" name="name" size="20" maxlength="50"/></td></tr>
+		 	<input type="text" name="name" size="20" maxlength="50" style="width:150px"/></td></tr>
 		 <tr arign="right"><td><input type="submit" name="submit" value="Submit"/></td></tr>
 		<tr><td><span style="font: 11px bold;">*<a href="http://www.pangaean.org/common/english/newsletter/index/index_newsletter_change.html"><b>Click here</b></a> to change or unsubscribe.</span>
 		</td></tr>

@@ -288,6 +288,9 @@ dl#organizationoverview_2 dd {
 		#side-navi #banner #nl_registration{
 			padding:0px 0px 0px 11px;
 		}
+		#side-navi #banner #nl_registration table{
+			table-layout:fixed
+		}
 
 #line {
     border: 1px solid #CCCCCC;

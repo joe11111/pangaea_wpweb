@@ -31,9 +31,9 @@
 		<table width="100%" border="0" cellpadding="5" cellspacing="5">
 		 <tr><td >毎月１回のパンゲアニュースレターを購読ご希望の方は、フォームにメールアドレスとお名前を入力し、送信ボタンを押してください。</td></tr>
 		 <tr align="right"><td>ﾒｰﾙｱﾄﾞﾚｽ 
-		   <input type="text" name="email" size="20" maxlength="200"/></td></tr>
+		   <input type="text" name="email" size="20" maxlength="200" style="width:150px"/></td></tr>
 		 <tr align="right"><td>お名前 
-		   <input type="text" name="name" size="20" maxlength="50"/></td></tr>
+		   <input type="text" name="name" size="20" maxlength="50" style="width:150px"/></td></tr>
 		 <tr align="right"><td><input type="submit" name="submit" value="送信"/></td></tr>
 		<tr><td ><span style="font: 10px bold; ">*登録の変更と解除は
 		<br>
